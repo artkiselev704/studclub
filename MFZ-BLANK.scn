@@ -1,4 +1,4 @@
-#4.0# "MFZ-BLANK" "" %000000000 1                                                                                              
+#4.0# "MFZ-BLANK" "14.04.2025" %000000000 1                                                                                              
 /config/chlink OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF
 /config/auxlink OFF OFF OFF ON
 /config/fxlink ON ON ON ON
@@ -34,7 +34,7 @@
 /config/amixenable ON ON
 /config/dp48 %0000 0 AESA
 /config/dp48/assign 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-/config/dp48/link 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+/config/dp48/link 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 /config/dp48/grpname "" "" "" "" "" "" "" "" "" "" "" ""
 /ch/01/config "" 1 OFF 1
 /ch/01/delay OFF   0.3
@@ -1988,10 +1988,10 @@
 /outputs/aes/02 2 POST OFF
 /outputs/rec/01 1 <-EQ
 /outputs/rec/02 2 <-EQ
-/headamp/000 +6.0 OFF
-/headamp/001 +6.0 OFF
-/headamp/002 +6.0 OFF
-/headamp/003 +6.0 OFF
+/headamp/000 +0.0 OFF
+/headamp/001 +0.0 OFF
+/headamp/002 +0.0 OFF
+/headamp/003 +0.0 OFF
 /headamp/004 +0.0 OFF
 /headamp/005 +0.0 OFF
 /headamp/006 +0.0 OFF
