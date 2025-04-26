@@ -3,7 +3,7 @@
 /config/auxlink ON ON ON ON
 /config/fxlink ON ON ON ON
 /config/buslink OFF OFF OFF OFF OFF OFF OFF OFF
-/config/mtxlink ON OFF OFF
+/config/mtxlink ON OFF ON
 /config/mute OFF OFF OFF OFF ON ON
 /config/linkcfg ON ON ON ON
 /config/mono LR+M ON
@@ -1812,7 +1812,7 @@
 /mtx/04/eq/6 HShv 10k02 +0.00 2.0
 /mtx/04/mix OFF   -oo
 /mtx/04/grp %00000000 %000000
-/mtx/05/config "Matrix 5" 63 OFF
+/mtx/05/config "STREAM L" 62 BL
 /mtx/05/preamp OFF
 /mtx/05/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
 /mtx/05/dyn/filter OFF 3.0 990.9
@@ -1824,9 +1824,9 @@
 /mtx/05/eq/4 PEQ 1k97 +0.00 2.0
 /mtx/05/eq/5 PEQ 5k02 +0.00 2.0
 /mtx/05/eq/6 HShv 10k02 +0.00 2.0
-/mtx/05/mix OFF   -oo
+/mtx/05/mix ON   0.0
 /mtx/05/grp %00000000 %000000
-/mtx/06/config "Matrix 6" 63 OFF
+/mtx/06/config "STREAM R" 62 BL
 /mtx/06/preamp OFF
 /mtx/06/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
 /mtx/06/dyn/filter OFF 3.0 990.9
@@ -1838,7 +1838,7 @@
 /mtx/06/eq/4 PEQ 1k97 +0.00 2.0
 /mtx/06/eq/5 PEQ 5k02 +0.00 2.0
 /mtx/06/eq/6 HShv 10k02 +0.00 2.0
-/mtx/06/mix OFF   -oo
+/mtx/06/mix ON   0.0
 /mtx/06/grp %00000000 %000000
 /main/st/config "" 66 WH
 /main/st/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
@@ -1851,13 +1851,13 @@
 /main/st/eq/4 PEQ 1k97 +0.00 2.0
 /main/st/eq/5 PEQ 5k02 +0.00 2.0
 /main/st/eq/6 HShv 10k02 +0.00 2.0
-/main/st/mix OFF  +0.9 +0
+/main/st/mix OFF   -oo +0
 /main/st/mix/01 ON   0.0 +0 POST 0
 /main/st/mix/02 ON   0.0
 /main/st/mix/03 ON   -oo +0 POST 0
 /main/st/mix/04 ON   -oo
-/main/st/mix/05 ON   -oo +0 POST 0
-/main/st/mix/06 ON   -oo
+/main/st/mix/05 ON   0.0 +0 PRE 0
+/main/st/mix/06 ON   0.0
 /main/st/grp %00000000 %010000
 /main/m/config "" 67 WH
 /main/m/dyn OFF COMP RMS LOG 0.0 3.0 1 0.00 10 10.0  151 POST 100 OFF
@@ -1952,9 +1952,9 @@
 /outputs/aux/04 0 POST OFF
 /outputs/aux/05 0 POST OFF
 /outputs/aux/06 0 POST OFF
-/outputs/p16/01 1 PRE+M OFF
+/outputs/p16/01 24 POST OFF
 /outputs/p16/01/iQ OFF none Linear 0
-/outputs/p16/02 2 PRE+M OFF
+/outputs/p16/02 25 POST OFF
 /outputs/p16/02/iQ OFF none Linear 0
 /outputs/p16/03 0 POST OFF
 /outputs/p16/03/iQ OFF none Linear 0
