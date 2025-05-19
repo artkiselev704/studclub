@@ -1,4 +1,4 @@
-#4.0# "BAZ-BLANK" "26.04.2025" %000000000 1                                                                                              
+#4.0# "BAZ-BLANK" "19.05.2025" %000000000 1                                                                                              
 /config/chlink OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF OFF
 /config/auxlink ON ON ON ON
 /config/fxlink ON ON ON ON
@@ -1762,12 +1762,12 @@
 /mtx/01/dyn/filter OFF 3.0 990.9
 /mtx/01/insert OFF PRE OFF
 /mtx/01/eq ON
-/mtx/01/eq/1 BU12 74.3 +0.00 2.0
+/mtx/01/eq/1 BU18 79.6 +0.00 2.0
 /mtx/01/eq/2 PEQ 158.9 +0.00 2.0
-/mtx/01/eq/3 PEQ 116.4 -2.50 6.7
-/mtx/01/eq/4 PEQ 2k51 -3.50 4.1
-/mtx/01/eq/5 PEQ 4k68 -3.25 3.5
-/mtx/01/eq/6 HShv 11k91 +2.75 2.0
+/mtx/01/eq/3 PEQ 248.9 -3.50 2.5
+/mtx/01/eq/4 PEQ 1k78 +2.25 1.8
+/mtx/01/eq/5 PEQ 3k81 -2.50 2.8
+/mtx/01/eq/6 HShv 9k35 +3.00 2.0
 /mtx/01/mix ON   0.0
 /mtx/01/grp %00000000 %000000
 /mtx/02/config "TOP R" 66 WH
@@ -1776,12 +1776,12 @@
 /mtx/02/dyn/filter OFF 3.0 990.9
 /mtx/02/insert OFF PRE OFF
 /mtx/02/eq ON
-/mtx/02/eq/1 BU12 74.3 +0.00 2.0
+/mtx/02/eq/1 BU18 79.6 +0.00 2.0
 /mtx/02/eq/2 PEQ 158.9 +0.00 2.0
-/mtx/02/eq/3 PEQ 116.4 -2.50 6.7
-/mtx/02/eq/4 PEQ 2k51 -3.50 4.1
-/mtx/02/eq/5 PEQ 4k68 -3.25 3.5
-/mtx/02/eq/6 HShv 11k91 +2.75 2.0
+/mtx/02/eq/3 PEQ 248.9 -3.50 2.5
+/mtx/02/eq/4 PEQ 1k78 +2.25 1.8
+/mtx/02/eq/5 PEQ 3k81 -2.50 2.8
+/mtx/02/eq/6 HShv 9k35 +3.00 2.0
 /mtx/02/mix ON   0.0
 /mtx/02/grp %00000000 %000000
 /mtx/03/config "Matrix 3" 62 OFF
@@ -1864,12 +1864,12 @@
 /main/m/dyn/filter OFF 3.0 990.9
 /main/m/insert OFF PRE OFF
 /main/m/eq ON
-/main/m/eq/1 LShv 79.6 +0.00 2.0
+/main/m/eq/1 LShv 82.4 +0.00 2.0
 /main/m/eq/2 PEQ 158.9 +0.00 2.0
-/main/m/eq/3 PEQ 496.6 +0.00 2.0
+/main/m/eq/3 PEQ 82.4 +0.00 5.3
 /main/m/eq/4 PEQ 1k97 +0.00 2.0
 /main/m/eq/5 PEQ 5k02 +0.00 2.0
-/main/m/eq/6 BU6 79.6 +0.00 2.0
+/main/m/eq/6 BU18 101.4 +0.00 2.0
 /main/m/mix ON  -5.0
 /main/m/mix/01 ON   -oo +0 POST 0
 /main/m/mix/02 ON   -oo
